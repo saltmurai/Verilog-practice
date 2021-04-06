@@ -1,0 +1,13 @@
+module ring_counter(clk, rst_n, en, cnt);
+
+output reg [7:0] cnt;
+input clk, en, rst_n;
+
+always @ (posedge clk or negedge rst_n) begin
+    if(!rst_n)
+        cnt <= 8b'0000_0001;
+    else if(en)
+        cnt <= {cnt[6:0], cnt[7]};
+end
+
+endmodule
