@@ -1,0 +1,1 @@
+## CONFIG PIN FOR DE - 1
