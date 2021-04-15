@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/AICS/Verilog/lab/lab2
+vBCD_7seg
+Z1 !s110 1618510137
+!i10b 1
+!s100 B2BlFKo@?OUn`kg38^PGO1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5I[`U=n2T3KMPaAL1kVR92
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1618510126
+Z5 8G:/AICS/Verilog/lab/lab2/part4.v
+Z6 FG:/AICS/Verilog/lab/lab2/part4.v
+!i122 3
+L0 58 13
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1618510137.000000
+!s107 G:/AICS/Verilog/lab/lab2/part4.v|
+Z9 !s90 -reportprogress|300|-work|work|G:/AICS/Verilog/lab/lab2/part4.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@c@d_7seg
+vBCD_7seg1
+R1
+!i10b 1
+!s100 QJ[kok9Pg@QH^n6VXVzVN3
+R2
+I^1cFkDUZKb1LUZenZNAdL1
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 51 6
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 G:/AICS/Verilog/lab/lab2/part4.v|
+R9
+!i113 1
+R10
+R11
+n@b@c@d_7seg1
+vComparator
+R1
+!i10b 1
+!s100 bPC]Z1`kDf[Fk>UM6>bTG1
+R2
+I`dG3MCL``Kd7^ij6badl^1
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 72 8
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@comparator
+vError_Check
+R1
+!i10b 1
+!s100 4]>N?YaUaJJ^FnTehS00I1
+R2
+I^0VRBVgK>;?Y3Lnb@:E=30
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 90 8
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@error_@check
+vFull_Adder
+R1
+!i10b 1
+!s100 <zQJkDOnF7Bn1XGfR1P5K0
+R2
+I_^YjSVnKMdVzH_25VQCd01
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 42 8
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@full_@adder
+vLab2
+R1
+!i10b 1
+!s100 D@XE3j53h7GHDEfHJ^Uc:1
+R2
+IX0bJJFbj>Y^6kN0G[h0U[2
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 1 41
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@lab2
+vMux5_1
+R1
+!i10b 1
+!s100 >PkV4@h:Zh_VQdjWgJV`91
+R2
+I5@7hFU2_U`bW^[io_Phg:0
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 81 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@mux5_1

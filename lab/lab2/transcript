@@ -1,0 +1,102 @@
+# OpenFile part4.v
+vlib work
+vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:04:08 on Apr 16,2021
+# vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v 
+# -- Compiling module Lab2
+# -- Compiling module Full_Adder
+# -- Compiling module BCD_7seg1
+# -- Compiling module BCD_7seg
+# -- Compiling module Comparator
+# -- Compiling module Mux5_1
+# -- Compiling module Error_Check
+# 
+# Top level modules:
+# 	Lab2
+# 	Mux5_1
+# End time: 01:04:09 on Apr 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:04:18 on Apr 16,2021
+# vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v 
+# -- Compiling module Lab2
+# -- Compiling module Full_Adder
+# -- Compiling module BCD_7seg1
+# -- Compiling module BCD_7seg
+# -- Compiling module Comparator
+# -- Compiling module Mux5_1
+# -- Compiling module Error_Check
+# 
+# Top level modules:
+# 	Lab2
+# 	Mux5_1
+# End time: 01:04:18 on Apr 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Lab2
+# vsim work.Lab2 
+# Start time: 01:04:49 on Apr 16,2021
+# Loading work.Lab2
+# Loading work.Error_Check
+# Loading work.Full_Adder
+# Loading work.Comparator
+# ** Error: (vsim-3033) Instantiation of 'HexDisp' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2 File: G:/AICS/Verilog/lab/lab2/part4.v Line: 26
+#         Searched libraries:
+#             G:/AICS/Verilog/lab/lab2/work
+# Loading work.BCD_7seg
+# Loading work.BCD_7seg1
+# Error loading design
+# End time: 01:04:50 on Apr 16,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:05:38 on Apr 16,2021
+# vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v 
+# -- Compiling module Lab2
+# -- Compiling module Full_Adder
+# -- Compiling module BCD_7seg1
+# -- Compiling module BCD_7seg
+# -- Compiling module Comparator
+# -- Compiling module Mux5_1
+# -- Compiling module Error_Check
+# 
+# Top level modules:
+# 	Lab2
+# End time: 01:05:38 on Apr 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Lab2
+# vsim work.Lab2 
+# Start time: 01:05:43 on Apr 16,2021
+# Loading work.Lab2
+# Loading work.Error_Check
+# Loading work.Full_Adder
+# Loading work.Comparator
+# Loading work.Mux5_1
+# Loading work.BCD_7seg
+# Loading work.BCD_7seg1
+add wave -position insertpoint sim:/Lab2/*
+force -freeze sim:/Lab2/SW 0000110101 0
+run
+# Break key hit
+vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:08:57 on Apr 16,2021
+# vlog -reportprogress 300 -work work G:/AICS/Verilog/lab/lab2/part4.v 
+# -- Compiling module Lab2
+# -- Compiling module Full_Adder
+# -- Compiling module BCD_7seg1
+# -- Compiling module BCD_7seg
+# -- Compiling module Comparator
+# -- Compiling module Mux5_1
+# -- Compiling module Error_Check
+# 
+# Top level modules:
+# 	Lab2
+# End time: 01:08:57 on Apr 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 01:09:03 on Apr 16,2021, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0
+# Break key hit
