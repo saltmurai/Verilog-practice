@@ -48,7 +48,7 @@ module Full_Adder(a, b, cin, cout, s);
 	
 endmodule
 
-module BCD_7seg1(Value, Display);
+module BCD_7seg1( DisplValue,ay);
     input Value;
     output [0:6] Display;
 
@@ -85,6 +85,7 @@ module Mux5_1(Value, C, Out);
 	output [4:0] Out;
 	
 	assign Out = Value + (5'b00110 & {5{C}});
+	//11111
 	
 endmodule
 module Error_Check(Value, Error);
