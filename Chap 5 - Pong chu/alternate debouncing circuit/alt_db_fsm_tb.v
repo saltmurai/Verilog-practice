@@ -48,7 +48,7 @@ module alt_db_fsm_tb;
         #(1000*T);
         sw = 1'b1;
         // wait for 100 ms
-        #100000000;
+        #100;
         #(T/4);     // sw changes outside of clock edge
         sw = 1'b0;
         // simulate bouncing on falling
